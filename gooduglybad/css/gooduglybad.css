@@ -2,15 +2,3 @@ body{
 	background-color: black;
 
 }
-.column {
-  flex: 30%;
-  padding: 0 4px;
-  vertical-align: middle;
-  margin-top:30px;*/
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin-top:30px;
-}
