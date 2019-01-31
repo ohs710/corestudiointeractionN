@@ -1,6 +1,7 @@
 body{
-    background-color:pink;
+    background-color:black;
 }
-h1{
-    color:white;
+button{
+	width:50px;
+	height:20px;
 }
