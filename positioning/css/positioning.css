@@ -1,0 +1,13 @@
+.absolute-positioning{
+	position:absolute;
+	background-color: red;
+	height:50px;
+	width:500px;
+}
+.relative-positioning{
+	position:relative;
+	border: dashed;
+	border-color: green;
+	height:50px;
+	width:500px;
+}
