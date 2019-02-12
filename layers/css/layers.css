@@ -1,0 +1,102 @@
+body{
+	background-color: #F0FFFF;
+}
+
+.topcontainer{
+	background-color:#12C0EC;
+	height:150px;
+	width:3000px;
+	margin-bottom: -100px;
+
+
+}
+.title{
+	margin-left:30px;
+	margin-top: 10px;
+	position:fixed;
+	font-size: 150px;
+	font-family: 'Staatliches', cursive;
+} 
+
+#bedframe{
+	position:absolute;
+	background-color:#915E11;
+	border-style:solid;
+	border-color:#603F0E;
+	border-width:10px;
+	width:450px;
+	height:600px;
+	border-radius:5px;
+	margin-left:500px;
+	margin-top:200px;
+	
+}
+
+#mattress{
+	
+	background-color: linen;
+	width:450px;
+	height:600px;
+	margin-top:1200px
+	border-width: 15px;
+	border-color:#DEB887;
+
+
+}
+
+
+#fittedsheet{
+	position:absolute;
+	background-color:#AFEEEE;
+	width:450px;
+	height:600px; 
+	margin-top:700px;
+
+}
+
+
+#blanket{
+background-color:#ADD8E6;
+	width:450px;
+	height:600px; 
+	margin-top:700px;
+
+
+}
+
+#first{
+	display:inline-block;
+	background-color:	#5F9EA0;
+	width:200px;
+	height:100px;
+	border-radius: 15px;
+	margin-top:700px;
+	margin-left:15px;
+	
+
+}
+
+#second{
+	position:absolute;
+	background-color:	#5F9EA0;
+	width:200px;
+	height:100px;
+	border-radius: 15px;
+	float:right;
+	margin-left:220px;
+
+
+}
+
+.toy{
+
+}
+
+
+
+
+
+
+
+
+
