@@ -1,6 +1,7 @@
-body{
-	background-color: #F0FFFF;
-}
+body{	
+   padding: 0px;
+   margin: 0px;
+ }
 
 .topcontainer{
 	background-color:#12C0EC;
