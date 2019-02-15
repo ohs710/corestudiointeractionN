@@ -1,26 +1,37 @@
 body{	
    padding: 0px;
    margin: 0px;
- }
+	height: auto ; 
+  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
+
+
+#gradient{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
 
 .topcontainer{
-	background-color:#12C0EC;
+	position:fixed;
+	z-index:-15;
+	background-color:white;
 	height:150px;
 	width:3000px;
-	margin-bottom: -100px;
-
 
 }
 .title{
+	
 	margin-left:30px;
-	margin-top: 10px;
 	position:fixed;
 	font-size: 150px;
 	font-family: 'Staatliches', cursive;
 } 
 
 #bedframe{
-	position:absolute;
+	position:fixed;
+	z-index:-10;
 	background-color:#915E11;
 	border-style:solid;
 	border-color:#603F0E;
@@ -29,38 +40,43 @@ body{
 	height:600px;
 	border-radius:5px;
 	margin-left:500px;
-	margin-top:200px;
+	margin-bottom:300px;
+	margin-top:150px;
 	
 }
 
 #mattress{
-	
+	position:absolute;
 	background-color: linen;
 	width:450px;
 	height:600px;
-	margin-top:1200px
+	margin-top:2000px;
 	border-width: 15px;
 	border-color:#DEB887;
-
+	margin-left:510px;
 
 }
 
-
 #fittedsheet{
+	margin-left:510px;
 	position:absolute;
 	background-color:#AFEEEE;
 	width:450px;
 	height:600px; 
-	margin-top:700px;
+	margin-top:2800px;
+	margin-bottom:100px;
 
 }
 
 
 #blanket{
-background-color:#ADD8E6;
+	position:absolute;
+	background-color:lightgrey;
 	width:450px;
 	height:600px; 
 	margin-top:700px;
+	margin-left:510px;
+	margin-
 
 
 }
