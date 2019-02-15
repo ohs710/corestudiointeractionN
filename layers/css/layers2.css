@@ -1,0 +1,133 @@
+
+
+.btn-group button {
+  background-color: lightgrey; /* Green background */
+  border: 1px solid grey; /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: darkgrey;
+}
+
+
+body{
+	cursor:url('img/cursor.png'),auto;
+	background-color: linen;
+}
+
+#title{
+font-family: 'Roboto Mono', monospace;
+font-size: 50px;
+color:black;
+margin-bottom:50px;
+position:relative;
+
+text-align: left;
+
+}
+
+#bedframe{
+	position:absolute;
+	z-index:-10;
+	background-color:#915E11;
+	border-style:solid;
+	border-color:#603F0E;
+	border-width:10px;
+	width:450px;
+	height:600px;
+	border-radius:5px;
+	margin-left:500px;
+	margin-bottom:300px;
+	margin-top:150px;
+	}
+
+#mattress{
+	position:absolute;
+	background-color: pink;
+	width:450px;
+	height:600px;
+	margin-top:160px;
+	border-width: 15px;
+	border-color:#DEB887;
+	margin-left:510px;
+
+}
+
+
+#fittedsheet{
+	margin-left:510px;
+	position:absolute;
+	background-color:#AFEEEE;
+	width:450px;
+	height:600px; 
+	margin-top:2800px;
+	margin-bottom:100px;
+
+}
+
+
+#blanket{
+	position:absolute;
+	background-color:lightgrey;
+	width:450px;
+	height:600px; 
+	margin-top:700px;
+	margin-left:510px;
+	margin-
+
+
+}
+
+#first{
+	display:inline-block;
+	background-color:	#5F9EA0;
+	width:200px;
+	height:100px;
+	border-radius: 15px;
+	margin-top:700px;
+	margin-left:15px;
+	
+
+}
+
+#second{
+	position:absolute;
+	background-color:	#5F9EA0;
+	width:200px;
+	height:100px;
+	border-radius: 15px;
+	float:right;
+	margin-left:220px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
