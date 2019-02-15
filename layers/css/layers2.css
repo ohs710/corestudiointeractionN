@@ -1,15 +1,15 @@
 
 
 .btn-group button {
-  background-color: lightgrey; /* Green background */
-  border: 1px solid grey; /* Green border */
-  color: black; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
+  background-color: lightgrey; 
+  border: 1px solid grey; 
+  color: black; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; /* Float the buttons  */
 }
 
-/* Clear floats (clearfix hack) */
+
 .btn-group:after {
   content: "";
   clear: both;
@@ -17,10 +17,10 @@
 }
 
 .btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
+  border-right: none; /* no double borders */
 }
 
-/* Add a background color on hover */
+/* background hover  */
 .btn-group button:hover {
   background-color: darkgrey;
 }
@@ -37,7 +37,6 @@ font-size: 50px;
 color:black;
 margin-bottom:50px;
 position:relative;
-
 text-align: left;
 
 }
@@ -66,61 +65,58 @@ text-align: left;
 	border-width: 15px;
 	border-color:#DEB887;
 	margin-left:510px;
-
+	z-index:-10;
 }
 
 
 #fittedsheet{
 	margin-left:510px;
 	position:absolute;
-	background-color:#AFEEEE;
+	background-color:#green;
 	width:450px;
 	height:600px; 
-	margin-top:2800px;
+	margin-top:160px;
 	margin-bottom:100px;
-
+	z-index:1;
 }
-
 
 #blanket{
 	position:absolute;
-	background-color:lightgrey;
+	background-color: salmon;
 	width:450px;
-	height:600px; 
-	margin-top:700px;
+	height:470px; 
+	margin-top:290px;
 	margin-left:510px;
-	margin-
-
-
+	z-index:-1;
+	box-shadow: -1px 4px 98px 21px rgba(240,106,106,0.76) inset;
+	-webkit-box-shadow: -1px 4px 98px 21px rgba(240,106,106,0.76) inset;
+	-moz-box-shadow: -1px 4px 98px 21px rgba(240,106,106,0.76) inset;
 }
 
 #first{
 	display:inline-block;
-	background-color:	#5F9EA0;
-	width:200px;
+	background-color:orange;
+	width:180px;
 	height:100px;
 	border-radius: 15px;
-	margin-top:700px;
-	margin-left:15px;
+	margin-top:170px;
+	margin-left:48px;
+	float:left;
+	box-shadow: 5px 10px 2px 1px rgba(0, 0, 255, .2);}
 	
-
-}
-
 #second{
-	position:absolute;
-	background-color:	#5F9EA0;
-	width:200px;
+
+	display:inline-block;
+	background-color: orange;
+	width:180px;
 	height:100px;
 	border-radius: 15px;
-	float:right;
-	margin-left:220px;
+	margin-top:-1px;
+	margin-left:230px;
+		box-shadow: 5px 10px 2px 1px rgba(0, 0, 255, .2);
 
 
 }
-
-
-
-
 
 
 

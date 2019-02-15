@@ -9,6 +9,7 @@ function sticktothetop() {
         $('#mattress').height(0);
     }
 }
+
 $(function() {
     $(window).scroll(sticktothetop);
     sticktothetop();

@@ -1,15 +1,8 @@
-$( "button" ).click(function() {
-  $( "bedframe" ).show( "slow" );
-});
+function myFunction (){
+  var x = document.getElementById("bedframe").onclick=function();
 
-$( function() {
-    $( "#draggable" ).draggable();
-    $( "#droppable" ).droppable({
-      drop: function( event, ui ) {
-        $( this )
-          .addClass( "ui-state-highlight" )
-          .find( "p" )
-            .html( "Dropped!" );
-      }
-    });
-  } );
+$(document).ready(function(){
+  $("myButton").click(function(){
+    $("#bedframe").toggle();
+  });
+});
