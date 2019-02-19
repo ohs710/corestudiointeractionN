@@ -1,0 +1,36 @@
+#bedframe{
+	position:absolute;
+	z-index:-10;
+	background-color:#915E11;
+	border-style:solid;
+	border-color:#603F0E;
+	border-width:10px;
+	width:450px;
+	height:600px;
+	border-radius:5px;
+	margin-left:500px;
+	margin-bottom:300px;
+	margin-top:150px;
+	}
+
+#mattress{
+	position:absolute;
+	background-color: pink;
+	width:450px;
+	height:600px;
+	margin-top:160px;
+	border-width: 15px;
+	border-color:#DEB887;
+	margin-left:510px;
+	z-index:-10;
+}
+#fittedsheet{
+	margin-left:510px;
+	position:absolute;
+	background-color:#green;
+	width:450px;
+	height:600px; 
+	margin-top:160px;
+	margin-bottom:100px;
+	z-index:1;
+}
