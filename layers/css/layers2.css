@@ -1,5 +1,6 @@
 
 
+
 .btn-group button {
   background-color: lightgrey; 
   border: 1px solid grey; 
@@ -64,22 +65,21 @@ text-align: left;
 	margin-top:160px;
 	border-width: 15px;
 	border-color:#DEB887;
-	margin-left:510px;
+	margin-left:405px;
 	z-index:-10;
 }
 
 
 #fittedsheet{
-	margin-left:510px;
-	position:absolute;
-	background-color:#green;
+	
+	background-color:green;
 	width:450px;
 	height:600px; 
 	margin-top:160px;
 	margin-bottom:100px;
-	z-index:1;
+	
 }
-
+/*
 #blanket{
 	position:absolute;
 	background-color: salmon;
@@ -118,7 +118,7 @@ text-align: left;
 
 }
 
-
+*/
 
 
 

@@ -24,6 +24,8 @@
 	margin-left:510px;
 	z-index:-10;
 }
+
+
 #fittedsheet{
 	margin-left:510px;
 	position:absolute;
@@ -34,3 +36,44 @@
 	margin-bottom:100px;
 	z-index:1;
 }
+
+#blanket{
+	position:absolute;
+	background-color: salmon;
+	width:450px;
+	height:470px; 
+	margin-top:290px;
+	margin-left:510px;
+	z-index:-1;
+	box-shadow: -1px 4px 98px 21px rgba(240,106,106,0.76) inset;
+	-webkit-box-shadow: -1px 4px 98px 21px rgba(240,106,106,0.76) inset;
+	-moz-box-shadow: -1px 4px 98px 21px rgba(240,106,106,0.76) inset;
+}
+
+#first{
+	display:inline-block;
+	background-color:orange;
+	width:180px;
+	height:100px;
+	border-radius: 15px;
+	margin-top:170px;
+	margin-left:48px;
+	float:left;
+	box-shadow: 5px 10px 2px 1px rgba(0, 0, 255, .2);}
+	
+#second{
+
+	display:inline-block;
+	background-color: orange;
+	width:180px;
+	height:100px;
+	border-radius: 15px;
+	margin-top:-1px;
+	margin-left:230px;
+		box-shadow: 5px 10px 2px 1px rgba(0, 0, 255, .2);
+
+
+}
+
+
+
