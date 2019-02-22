@@ -82,3 +82,6 @@ function typewriter()
 
 typewriter();
 
+
+<script>$('#widget').draggable();</script>
+
