@@ -1,17 +1,23 @@
 
 body{
 	cursor:url('img/cursor.png'),auto;
-	background-color: lightgrey;
+	background-color: #E1D2F3;
 	margin-bottom:100px;
 }
 
-#title{
-font-family: 'Roboto Mono', monospace;
-font-size: 50px;
-color:black;
-margin-bottom:50px;
-position:relative;
-text-align: left;
+
+header{
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	color:red;
+	font-size:105px;
+	margin-top:200px;
+	margin-left:50px;
+	margin-bottom:150px;
+	text-align: center;
+	font-style:medium;
+	position:relative;
+	z-index:50  
 
 }
 #yes{
@@ -21,7 +27,7 @@ text-align: left;
 	font-size: 55px;
 	color: red;
 	margin-left: 180px;
-	margin-top: 420px;
+	margin-top: 520px;
 	width: 300px;
 	text-align: center;
 	background-color: none;
