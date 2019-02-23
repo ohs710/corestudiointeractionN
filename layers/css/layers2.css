@@ -126,11 +126,7 @@ font-weight: 400;
 	{background-color: 170, 50, 220, .6}
 
 }
-.button2 :active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+
 
 .button3{
 	font-family: 'Roboto Mono', monospace;
