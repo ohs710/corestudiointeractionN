@@ -23,7 +23,8 @@
 
     <a id="yes" style="display:none">Yes! </a>
 
-      <div id="clock"></div>
+      <div id="clock"> 
+        <div id="text"> The day I will be able to get some proper sleep </div></div>
 
         <header id="typedtext">
  The Anatomy of a Bed </header>
@@ -33,22 +34,29 @@
             ARE YOU READY TO SLEEP?
         </div>
 
+
+<h2>Drag and Drop Bed Elements</h2>
+<p>Drag the images to make your bed</p>
+
+<div id="menu" ondrop="drop(event)" ondragover="allowDrop(event)">
+
 <div id="contained" style="display:none">
     <div class="button2" >
         Make your bed!
-       
 
-    
-  <div id="draggable" style="display:none">
+  <div id="draggable" style="display:none"><div id="menu" ondrop="drop(event)" ondragover="allowDrop(event)">
+
     <img src="img/bedframe.png" width="450" height="250" class="bedparts" id="bedframe">
-    <img src="img/mattress.png" width="580" height="380" class="bedparts" id="">
-    <img src="img/comforter.png" width="380" height="90" class="bedparts">
-    <img src="img/blanket.png" width="450" height="150" class="bedparts">
-    <img src="img/pillow.png"width="200" height="90" class="bedparts">
-    <img src="img/pillowv2.png"width="170" height="85" class="bedparts">
+    <img src="img/mattress.png" width="580" height="380" class="bedparts" id="mattress">
+    <img src="img/comforter.png" width="380" height="90" class="bedparts" id="comforter">
+    <img src="img/blanket.png" width="450" height="150" class="bedparts" id="blanket">
+    <img src="img/pillow.png"width="200" height="90" class="bedparts" id="pillow">
+    <img src="img/pillowv2.png"width="170" height="85" class="bedparts" id="pillowv2">
+   
 </div>
 
 
+ <div id="receive" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 
 </div>

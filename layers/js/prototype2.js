@@ -22,7 +22,7 @@ $('.button2').click(function(){
      });
 
 //countdown clock//
-var countDownDate = new Date("Feb 22, 2019 21:39:25").getTime();
+var countDownDate = new Date("Feb 22, 2030 22:24:25").getTime();
 
 var x = setInterval(function() {
 
@@ -81,4 +81,21 @@ function typewriter()
 
 
 typewriter();
+
+
+
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+
 
