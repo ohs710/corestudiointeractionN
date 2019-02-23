@@ -105,4 +105,6 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
 }
 
-
+function myFunction() {
+  alert("Good Job!");
+}
