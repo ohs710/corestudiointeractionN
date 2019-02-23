@@ -14,6 +14,13 @@ $('.button').click(function(){
      });
 
 $('.button').click(function(){
+    $('h2').toggle();
+     });
+$('.button').click(function(){
+    $('h3').toggle();
+     });
+
+$('.button').click(function(){
     $('#contained').toggle();
      });
 
