@@ -1,0 +1,26 @@
+body{
+	background-color: #99bbff;
+}
+
+h1{
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	font-size:80px;
+	padding:10px;
+
+}
+h2{
+	font-family: 'PT Sans', sans-serif;
+	font-size:15px;
+
+}
+
+
+
+button{
+	font-family: 'PT Sans', sans-serif;
+	font-size:20px;
+	padding:5px;
+
+
+}
