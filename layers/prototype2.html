@@ -7,41 +7,71 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/layers2.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
- 		
-      
-  
+ 		 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+         <script src="https:
+        //ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+
     </head>
     <body>
-        <section>
-          
-            <div id="title">
-            <h1> The Anatomy of a Bed </h1></div>
-
-<div class="btn-group">
-<button on click="myFunction()" id="myButton"> Bed Frame 
-</button> 
-    <p id="bedframe"></p>
-
-<div id="mattress"></div>
-	<button> Mattress </button>	
-<div id="fittedsheets"></div>
-	<button> Fitted Sheet </button>	
-<div id="blanket"></div>
-	<button> Blanket</button>
-<div id="pillow"></div>
-	<button> Pillow </button>
-<div id="pillows">
-	 <div id="first"> 
-    <div id="second">
-</div></div>
+        
+<audio controls autoplay >
+  <source src="audio/lullaby.m4a" type="audio/ogg">
+</audio> 
 
 
+    <a id="yes" style="display:none">Yes! </a>
+
+      <div id="clock"> 
+        <div id="text"> The day I will be able to get some proper sleep </div></div>
+
+        <header id="typedtext">
+ The Anatomy of a Bed </header>
+
+
+          <div class="button">
+            ARE YOU READY TO SLEEP?
+        </div>
+
+
+<h2 style="display:none">Drag and Drop Bed Elements</h2>
+<h3 style="display:none">Drag the images to make your bed</h3>
+
+<div id="menu" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+<div id="contained" style="display:none">
+    <div class="button2" >
+        Make your bed!
+
+  <div id="draggable" style="display:none"><div id="menu" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+    <img src="img/bedframe.png" width="450" height="250" class="bedparts" id="bedframe">
+    <img src="img/mattress.png" width="580" height="380" class="bedparts" id="mattress">
+    <img src="img/comforter.png" width="380" height="90" class="bedparts" id="comforter">
+    <img src="img/blanket.png" width="450" height="150" class="bedparts" id="blanket">
+    <img src="img/pillow.png"width="200" height="90" class="bedparts" id="pillow">
+    <img src="img/pillowv2.png"width="170" height="85" class="bedparts" id="pillowv2">
+
+</div>
+
+
+ <div id="receive" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 
 </div>
-</div>
-</section>
-    
+
+
+<h5>Are you done? </h5>
+<button class="button10" onclick="myFunction()">Yes!</button>
+
+
+
+
+
+           </div>
+
+
         <script src="js/prototype2.js"></script>
 
         </body>
