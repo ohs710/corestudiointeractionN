@@ -2,7 +2,7 @@ let mic;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  //img = loadImage('img/flowmeter.jpg'); // Load the image
+  img = loadImage('img/flowmeter.jpg'); // Load the image
 
 
   // Create an Audio input
