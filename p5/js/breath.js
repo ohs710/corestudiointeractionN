@@ -19,8 +19,7 @@ function setup() {
 
 function draw() {
   background(200);
- noStroke();
-  noLoop();
+
   // Get the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
 
@@ -30,7 +29,7 @@ function draw() {
 
   // Draw an ellipse with height based on volume
   let h = map(vol, 0, 1, height, 0);
-  
+
   fill(color(0, 200, 400));
  
   // create a for loop that iterates over an x value from (0, height) -> (width, height)
