@@ -1,22 +1,3 @@
-let img;
-let c;
-function preload() {
-  // preload() runs once
-  img = loadImage('assets/flowmeter.jpg');
-}
-
-function setup() {
-  // setup() waits until preload() is done
-  img.loadPixels();
-  // get color of middle pixel
-  c = img.get(img.width / 2, img.height / 2);
-}
-
-function draw() {
-  background(c);
-  image(img, 25, 25, 50, 50);
-}
-
 
 let mic;
 
@@ -54,8 +35,26 @@ function draw() {
 }
 
 
+
 function changeBackground(color) {
    document.body.style.background = color;
 }
 
 window.addEventListener("load",function() { changeBackground('white'); });
+let timer = 5
+
+function draw() { 
+  background(220);
+  textAlign(CENTER, CENTER);
+  textSize(100);
+  text(timer, width/2, height/2);
+  
+  if (frameCount % 60 == 0 && timer > 0) { // if the frameCount is divisible by 60, then a second has passed. it will stop at 0
+    timer --;
+  }
+  if (timer == 0) {
+    text("GAME OVER", width/2, height*0.7);
+  }
+  
+}
+
