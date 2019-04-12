@@ -41,7 +41,5 @@ function changeBackground(color) {
 }
 
 window.addEventListener("load",function() { changeBackground('white'); });
-let timer = 5
-
 
 
