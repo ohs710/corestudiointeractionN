@@ -1,4 +1,4 @@
-/*! p5.sound.js v0.3.11 2019-03-14 */
+! p5.sound.js v0.3.11 2019-03-14 */
 /**
  *  p5.sound extends p5 with <a href="http://caniuse.com/audio-api"
  *  target="_blank">Web Audio</a> functionality including audio input,
@@ -43,7 +43,7 @@
  *  @main
  */
 
-/**
+
  *  p5.sound 
  *  https://p5js.org/reference/#/libraries/p5.sound
  *
@@ -62,7 +62,7 @@
  *   - Wilm Thoben's Sound library for Processing https://github.com/processing/processing/tree/master/java/libraries/sound
  *
  *   Web Audio API: http://w3.org/TR/webaudio/
- */
+ 
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd)
