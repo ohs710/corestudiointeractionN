@@ -1,4 +1,4 @@
-window.alert("blow till you can't!");
+window.alert("blow until you can't!");
 alert ("blow!");
 
 let mic;
