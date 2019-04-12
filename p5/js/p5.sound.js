@@ -1,5 +1,5 @@
-! p5.sound.js v0.3.11 2019-03-14 */
-/**
+ p5.sound.js v0.3.11 2019-03-14 
+
  *  p5.sound extends p5 with <a href="http://caniuse.com/audio-api"
  *  target="_blank">Web Audio</a> functionality including audio input,
  *  playback, analysis and synthesis.
