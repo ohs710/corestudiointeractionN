@@ -19,8 +19,8 @@ function setup() {
 
 function draw() {
   background(200);
-  image(img, 0, height / 2, img.width / 2, img.height / 2);
-
+ noStroke();
+  noLoop();
   // Get the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
   fill(127);
@@ -35,6 +35,7 @@ function draw() {
   // create a for loop that iterates over an x value from (0, height) -> (width, height)
   ellipse(width / 2, h - 31, 60, 60);
 }
+
 
 
 
