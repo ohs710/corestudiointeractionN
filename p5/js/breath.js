@@ -1,6 +1,5 @@
-window.alert("Try blowing to the top of the page");
-alert ("You got this!");
-
+/*window.alert("Try blowing to the top of the page");
+alert ("You got this!");*/
 
 
 let mic;

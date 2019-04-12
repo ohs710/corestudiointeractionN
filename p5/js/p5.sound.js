@@ -1,5 +1,5 @@
- p5.sound.js v0.3.11 2019-03-14 
-
+/*! p5.sound.js v0.3.11 2019-03-14 */
+/**
  *  p5.sound extends p5 with <a href="http://caniuse.com/audio-api"
  *  target="_blank">Web Audio</a> functionality including audio input,
  *  playback, analysis and synthesis.
@@ -43,7 +43,7 @@
  *  @main
  */
 
-
+/**
  *  p5.sound 
  *  https://p5js.org/reference/#/libraries/p5.sound
  *
@@ -62,7 +62,7 @@
  *   - Wilm Thoben's Sound library for Processing https://github.com/processing/processing/tree/master/java/libraries/sound
  *
  *   Web Audio API: http://w3.org/TR/webaudio/
- 
+ */
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd)
@@ -8382,15 +8382,15 @@ effect = function () {
     this.input = this.ac.createGain();
     this.output = this.ac.createGain();
     /**
-    *	The p5.Effect class is built
-    * 	using Tone.js CrossFade
-    * 	@private
+    * The p5.Effect class is built
+    *   using Tone.js CrossFade
+    *   @private
     */
     this._drywet = new CrossFade(1);
     /**
-     *	In classes that extend
-     *	p5.Effect, connect effect nodes
-     *	to the wet parameter
+     *  In classes that extend
+     *  p5.Effect, connect effect nodes
+     *  to the wet parameter
      */
     this.wet = this.ac.createGain();
     this.input.connect(this._drywet.a);
@@ -8418,12 +8418,12 @@ effect = function () {
     this.output.gain.linearRampToValueAtTime(vol, now + tFromNow + rampTime + 0.001);
   };
   /**
-   *	Link effects together in a chain	
-   *	Example usage: filter.chain(reverb, delay, panner);
-   *	May be used with an open-ended number of arguments
+   *  Link effects together in a chain  
+   *  Example usage: filter.chain(reverb, delay, panner);
+   *  May be used with an open-ended number of arguments
    *
-   *	@method chain 
-     *  @param {Object} [arguments]  Chain together multiple sound objects	
+   *  @method chain 
+     *  @param {Object} [arguments]  Chain together multiple sound objects  
    */
   p5.Effect.prototype.chain = function () {
     if (arguments.length > 0) {
@@ -8435,10 +8435,10 @@ effect = function () {
     return this;
   };
   /**
-   *	Adjust the dry/wet value.	
-   *	
-   *	@method drywet
-   *	@param {Number} [fade] The desired drywet value (0 - 1.0)
+   *  Adjust the dry/wet value. 
+   *  
+   *  @method drywet
+   *  @param {Number} [fade] The desired drywet value (0 - 1.0)
    */
   p5.Effect.prototype.drywet = function (fade) {
     if (typeof fade !== 'undefined') {
@@ -8447,20 +8447,20 @@ effect = function () {
     return this._drywet.fade.value;
   };
   /**
-   *	Send output to a p5.js-sound, Web Audio Node, or use signal to
-   *	control an AudioParam	
-   *	
-   *	@method connect 
-   *	@param {Object} unit 
+   *  Send output to a p5.js-sound, Web Audio Node, or use signal to
+   *  control an AudioParam 
+   *  
+   *  @method connect 
+   *  @param {Object} unit 
    */
   p5.Effect.prototype.connect = function (unit) {
     var u = unit || p5.soundOut.input;
     this.output.connect(u.input ? u.input : u);
   };
   /**
-   *	Disconnect all output.	
-   *	
-   *	@method disconnect 
+   *  Disconnect all output.  
+   *  
+   *  @method disconnect 
    */
   p5.Effect.prototype.disconnect = function () {
     if (this.output) {
