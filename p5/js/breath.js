@@ -1,5 +1,5 @@
 window.alert("blow till you can't!");
-alert ("blow!")
+alert ("blow!");
 
 let mic;
 
@@ -35,7 +35,6 @@ function draw() {
   // create a for loop that iterates over an x value from (0, height) -> (width, height)
   ellipse(width / 2, h - 31, 60, 60);
 }
-
 
 
 function changeBackground(color) {
