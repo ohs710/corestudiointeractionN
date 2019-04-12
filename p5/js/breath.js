@@ -1,4 +1,4 @@
-window.alert("blow till you can't!");
+window.alert("Try to blow to the top of the page!");
 alert ("blow!")
 
 let mic;
@@ -23,13 +23,14 @@ function draw() {
   noLoop();
   // Get the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
+
   fill(127);
   stroke(0);
   background(255);
 
   // Draw an ellipse with height based on volume
   let h = map(vol, 0, 1, height, 0);
-
+  
   fill(color(0, 200, 400));
  
   // create a for loop that iterates over an x value from (0, height) -> (width, height)
