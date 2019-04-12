@@ -1,4 +1,4 @@
-window.alert("Try to blow to the top of the page");
+window.alert("blow till you can't!");
 alert ("blow!")
 
 let mic;
@@ -19,6 +19,7 @@ function setup() {
 
 function draw() {
   background(200);
+  image(img, 0, height / 2, img.width / 2, img.height / 2);
 
   // Get the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
@@ -34,7 +35,6 @@ function draw() {
   // create a for loop that iterates over an x value from (0, height) -> (width, height)
   ellipse(width / 2, h - 31, 60, 60);
 }
-
 
 
 
