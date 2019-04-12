@@ -1,4 +1,4 @@
-window.alert("Try to blow to the top of the page!");
+window.alert("Try to blow to the top of the page");
 alert ("blow!")
 
 let mic;
@@ -22,7 +22,6 @@ function draw() {
 
   // Get the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
-
   fill(127);
   stroke(0);
   background(255);
