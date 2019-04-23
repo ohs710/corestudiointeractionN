@@ -2,11 +2,11 @@
 alert ("You got this!");*/
 
 
-let mic;
+var mic;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  img = loadImage('img/flowmeter.jpg'); // Load the image
+  // img = loadImage('img/flowmeter.jpg'); // Load the image
 
 
   // Create an Audio input
@@ -20,7 +20,7 @@ function setup() {
 
 function draw() {
   background(200);
-  image(img, 0, height / 2, img.width / 2, img.height / 2);
+  // image(img, 0, height / 2, img.width / 2, img.height / 2);
 
   // Get the overall volume (between 0 and 1.0)
   let vol = mic.getLevel();
@@ -39,10 +39,10 @@ function draw() {
 
 
 
-function changeBackground(color) {
-   document.body.style.background = color;
-}
+// function changeBackground(color) {
+//    document.body.style.background = color;
+// }
 
-window.addEventListener("load",function() { changeBackground('white'); });
+// window.addEventListener("load",function() { changeBackground('white'); });
 
 
