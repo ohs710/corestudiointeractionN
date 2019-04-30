@@ -8,10 +8,37 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
 <body>
+	<h1> Convert yo money! </h1>
+<div id ="container"></div>
+	<form id="fixer__form">
+			<input type="number" id="currency__from">
 
-	<form id=""
+ 		<select name="currency__from" id="currency__from">
+			<option value="EUR"> European Dollars  </option>
+			<option value="GBP">Great British Pounds</option>
+			<option value="USD">United States Dollars</option>
+			<option value="KRW">South Korean Won</option>
+			<option value="HKD">Hong Kong Dollars</option>
+			
+	
+		</select>
 
+		 <br>
+		
+		<input type="text" id="result">
+		<select name="currency__to" id="currency__to">
+			<option value="USD">United States Dollars</option>
+			<option value="KRW">South Korean Won</option>
+			<option value="HKD">Hong Kong Dollars</option>
+			<option value="EUR"> European Dollars  </option>
+			<option value="GBP">Great British Pounds</option>
 
+		</select>
+		<button id ="convertbutton">Convert!</button>
+		<input type="number" id="from__amount">
+		
+	</form>
+</div>
 <script src="js/script.js"></script>
 </body>
     </html>

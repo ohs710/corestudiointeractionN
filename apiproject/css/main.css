@@ -3,3 +3,20 @@
 	background-size:cover;
 
 }
+
+h1{
+	font-size: 100px;
+	font-family:"Courier New", Courier, monospace;
+	color:	#00FF00;
+	padding:30px;
+	margin: auto;
+}
+
+#fixer__form {
+	width:350px;
+	height:80px;
+	background-color: lightsteelblue;
+	border-style:inset;	
+	padding:40px;
+	margin: auto;
+
