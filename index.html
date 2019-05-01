@@ -3,51 +3,86 @@
         
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title> Sujin Oh Core Studio Interaction</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/normalize.css">
+        <meta property="og:url" content= "http://"/>
+        <meta property ="og:type" content= "website"/>
+        <meta property ="og:description" content="Image Gallery"/>
+        <meta property ="og:image" content= ""/> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
- 
+       
+        <link rel="stylesheet" href="css/normalize.css">
+
     </head>
     
     <body>
         
 <!-- <div class ="modal"> -->
+    <header class ="container container--small">
  <h1>Welcome to my Core Studio and Lab Page</h1> 
+</header>
 <div class ="btn-group">
+
+    <!-- The Good, Ugly and Bad project-->
 <button class="gooduglybad">
 <a href="gooduglybad/optionpage.html">The Good, The Ugly, and The Bad</a> 
 </button>
 
-
-
+<!-- Layers Project-->
 <button class="layersproject">
-
 	<a href="layers/layersindex.html"> Layers Project</a>
 </button>
 
+
+<!-- p5 processing project-->
 <button class="pfive">
-    <a href="p5/p5sample1.html"> P5 Prototype 1 </a> 
-    <a href="p5/pfiveexampletwo.html"> P5 Prototype 2 </a> 
-    <a href="p5/p5sample3.html"> P5 Protoype 3 </a>
+    <!-- want to make a drop down option for the prototypes-->
+    <a href="p5/p5sample1.html"> P5 Prototype 1 </a> <br>
+    <a href="p5/pfiveexampletwo.html"> P5 Prototype 2 </a> <br>
+    <a href="p5/p5sample3.html"> P5 Protoype 3 </a> <br>
 </button>
 
+
+<!-- API project-->
  <button class = "apiproject">
 <a href="apiproject/index.html">API Project</div>
 </button>
 
+<!-- In Class Core Lab work-->
  <button class="corelab">
         <a href="corelab.html"> Core Lab Page </a>
  </button> 
+
+
+ <!-- Full Portfolio-->
+ <button class="squarespace">
+     <a href= "https://sujin-oh.squarespace.com/config/?frameUrl=%2F"> My Other Portfolio</a>
+ </button>
  
+
+ 
+<!-- create image gallery of sketches, project screenshots etc-->
+
+<div class ="imagegallery" type="container">
+
+
+
+
+</div>
+
+
 </div>
 </div>
+</div>
+
+<!-- screen border, trying to make it look like a retro coputer -->
 <div class="border">
 <div id="left"></div>
 <div id="right"></div>
 <div id="top"></div>
 <div id="bottom"></div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script src="js/script.js"></script>
 </body>

@@ -4,8 +4,9 @@ body{
 }
 h1{
     font-family: 'Source Code Pro', monospace;
-    background-color:whitesmoke;
-    position:relative;
+	position:relative;
+	padding:5px;
+	margin-left:10px;
 }
 
 
