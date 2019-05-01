@@ -12,7 +12,7 @@ const getData = event => {
       event.preventDefault();
     }
   
-   const proxy= 'http://cors-anywhere.herokuapp.com/';
+   const proxy= 'https://cors-anywhere.herokuapp.com/';
     //const APIKEY ='8ea73c77910f22d9896d5031522bd4b4',
   const api = `${proxy}https://data.fixer.io/api/latest?access_key=8ea73c77910f22d9896d5031522bd4b4`;
     fetch (api)
