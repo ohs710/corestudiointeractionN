@@ -11,8 +11,8 @@ const getData = event => {
     if (event) {
       event.preventDefault();
     }
-  
-   const proxy= 'https://cors-anywhere.herokuapp.com/';
+  // does not work when pushed on github 
+   const proxy= 'http://cors-anywhere.herokuapp.com/';
     //const APIKEY ='8ea73c77910f22d9896d5031522bd4b4',
   const api = `${proxy}http://data.fixer.io/api/latest?access_key=8ea73c77910f22d9896d5031522bd4b4`;
     fetch (api)
@@ -24,12 +24,13 @@ const getData = event => {
         console.log(exchangeRates);
         let euroValue = parseInt(fromAmount.value) / exchangeRates[fromCurrency.value];
         let convertedValue = euroValue * exchangeRates[toCurrency.value];
-        
-        // reduce the numbers after decimal
-        toAmount.value = convertedValue;
         var num = convertedValue;
         var n = num.toFixed (2);
-  
+
+        // reduce the numbers after decimal
+        toAmount.value = n;
+
+        console.log (num)
         console.log (n)
         
 
