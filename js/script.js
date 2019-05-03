@@ -8,3 +8,10 @@ function.mouseOver(){
 function.mouseOut(){
     document.getElementById("welcome").style.color="black";
 }
+
+//event listener link preview, click
+//display the modal
+//add the image to the modal
+//add the link
+
+//save data-href as a variable, then pass it to .modal-link href attribute
