@@ -11,7 +11,7 @@ const getData = event => {
     if (event) {
       event.preventDefault();
     }
-  // does not work when pushed on github 
+  // issue with the http and https, when i push onto github it registers the cors as http not https 
    const proxy= `https://cors-anywhere.herokuapp.com/`;
     //const APIKEY ='8ea73c77910f22d9896d5031522bd4b4',
   const api = `${proxy}https://data.fixer.io/api/latest?access_key=8ea73c77910f22d9896d5031522bd4b4`;
