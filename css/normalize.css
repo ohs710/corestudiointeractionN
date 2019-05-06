@@ -23,13 +23,14 @@ html,body {
 }
 
 
-
 		ul {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
 			overflow: hidden;
-			background-color:lightskyblue;
+			background-color:black;
+			border-style:inset;
+			border-width: 7px;
 		  }
 		  
 		  li {
@@ -45,7 +46,7 @@ html,body {
 		  }
 		  
 		  li a:hover, .dropdown:hover .dropbtn {
-			background-color:lightsteelblue;
+			background-color:red;
 		  }
 		  
 		  li.dropdown {
