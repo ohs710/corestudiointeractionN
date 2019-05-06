@@ -554,7 +554,7 @@ input[type=number]::-webkit-inner-spin-button {
   color:black;
   background-color: powderblue;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 0 9px #88DCF6;
 }
   select{
