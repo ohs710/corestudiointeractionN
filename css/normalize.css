@@ -2,8 +2,14 @@ body{
 	background-color:white;
 	background-size:cover;
 }
+
 h1{
-  font-family:'Helvetica';
+	
+font-family: halyard-display, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
 	position:relative;
 	padding:15px;
 	margin-left:10px;
