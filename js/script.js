@@ -1,5 +1,5 @@
 
-
+ 
 
 jQuery(document).ready(function(){
     $('h1').mousemove(function(e){
@@ -10,8 +10,8 @@ jQuery(document).ready(function(){
  });
  var audio1 = document.getElementById("audioID");
 
- //Example of an HTML Audio/Video Method
  
  function playAudio() {
    audio1.play();
  };
+ 
