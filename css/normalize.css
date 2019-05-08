@@ -120,4 +120,14 @@ html,body {
         visibility: visible;
         transform: scale(1.0);
         transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
-    }
+		}
+		.trigger{
+		font-size: 3px;
+	color:white;
+			margin: 10;
+			padding: 40;
+			overflow: hidden;
+			background-color:black;
+			border-style:inset;
+			border-width: 3px;
+		}
